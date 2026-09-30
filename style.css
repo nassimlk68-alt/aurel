@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Georgia', serif; background: #0b0b0f; color: #eae4d8; line-height: 1.6; }
+.hero { text-align: center; padding: 80px 20px 40px; background: radial-gradient(ellipse at center, #1a1a24 0%, #0b0b0f 70%); }
+.hero.small { padding: 40px 20px; }
+.hero h1 { font-size: 3em; letter-spacing: 0.2em; color: #d4af37; }
+.tagline { font-size: 1.2em; color: #b9b0a0; margin-top: 10px; font-style: italic; }
+main { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+section { margin-bottom: 50px; }
+h2 { color: #d4af37; margin-bottom: 20px; border-bottom: 1px solid #3a3a44; padding-bottom: 10px; }
+.cta { display: inline-block; background: #d4af37; color: #0b0b0f; padding: 14px 28px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 15px; }
+.cta:hover { background: #f0c94f; }
+.lexique ul { list-style: none; }
+.lexique li { margin-bottom: 15px; padding-left: 20px; border-left: 2px solid #d4af37; }
+.cards { display: flex; gap: 20px; flex-wrap: wrap; }
+.card { flex: 1; min-width: 200px; background: #16161d; padding: 20px; border-radius: 8px; border: 1px solid #2a2a33; text-align: center; }
+.card.featured { border-color: #d4af37; }
+.price { font-size: 1.8em; color: #d4af37; margin: 10px 0; }
+.parcours ol { padding-left: 20px; }
+.parcours a { color: #d4af37; }
+table.registre { width: 100%; border-collapse: collapse; margin: 20px 0; }
+table.registre th, table.registre td { border: 1px solid #2a2a33; padding: 10px; text-align: left; }
+table.registre th { background: #16161d; color: #d4af37; }
+form label { display: block; margin-bottom: 5px; }
+form input, form select { width: 100%; padding: 10px; background: #16161d; border: 1px solid #3a3a44; color: #eae4d8; border-radius: 4px; }
+.certificat { background: #16161d; border: 2px solid #d4af37; padding: 40px; text-align: center; margin: 30px 0; border-radius: 8px; }
+.certificat .grand { font-size: 1.6em; color: #d4af37; margin: 15px 0; }
+footer { text-align: center; padding: 30px; color: #666; font-size: 0.9em; }

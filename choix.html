@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Choisir sa Seconde — AUREL</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="hero small"><h1>AUREL</h1></header>
+<main>
+<h2>Choisissez votre Seconde</h2>
+<form action="sceau.html" method="get">
+  <label>Type de Seconde :
+    <select name="type">
+      <option value="ordinaire">Ordinaire — 9€</option>
+      <option value="rare">Rare — 49€</option>
+      <option value="legendaire">Légendaire — 199€</option>
+    </select>
+  </label><br><br>
+  <label>Date et heure précise souhaitée :
+    <input type="datetime-local" name="instant" required>
+  </label><br><br>
+  <button type="submit" class="cta">Continuer vers le Sceau</button>
+</form>
+<p><a href="registre.html">← Retour au Registre</a></p>
+</main>
+</body></html>
